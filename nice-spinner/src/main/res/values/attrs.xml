@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NiceSpinner">
+        <attr name="arrowTint" format="color" />
+        <attr name="hideArrow" format="boolean" />
+        <attr name="showFullList" format="boolean" />
+        <attr name="isFullDialog" format="boolean" />
+        <attr name="isMaterialNewDesign" format="boolean" />
+        <attr name="titleFullDialog" format="string" />
+        <attr name="hasLogo" format="boolean" />
+        <attr name="sMenuBackGround" format="reference" />
+        <attr name="sMenuTextColor" format="color" />
+        <attr name="sMenueDividerColor" format="color" />
+        <attr name="sMenueDividerHeight" format="dimension" />
+        <attr name="sMenueTextSize" format="dimension" />
+        <attr name="sTextGravity" format="enum">
+            <enum name="gravity_regular" value="0" />
+            <enum name="gravity_center" value="1" />
+        </attr>
+        <attr name="sArrowDirection" format="enum">
+            <enum name="arrow_left" value="0" />
+            <enum name="arrow_right" value="1" />
+
+        </attr>
+        <attr name="sArrowImage" format="integer" />
+
+    </declare-styleable>
+    <item name="logoId" type="id" />
+</resources>

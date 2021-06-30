@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_gray">#182129</color>
+    <color name="darker_gray">#ffffff</color>
+    <color name="ligher_gray">#d9d9d9</color>
+    <color name="light_gray">#fff5f5f5</color>
+    <dimen name="one_and_a_half_grid_unit">4dp</dimen>
+    <dimen name="textsize">12sp</dimen>
+    <dimen name="three_grid_unit">24dp</dimen>
+    <item name="logoId" type="id"/>
+    <string name="app_name">Views</string>
+    <declare-styleable name="NiceSpinner">
+        <attr format="color" name="arrowTint"/>
+        <attr format="boolean" name="hideArrow"/>
+        <attr format="boolean" name="showFullList"/>
+        <attr format="boolean" name="isFullDialog"/>
+        <attr format="boolean" name="isMaterialNewDesign"/>
+        <attr format="string" name="titleFullDialog"/>
+        <attr format="boolean" name="hasLogo"/>
+        <attr format="reference" name="sMenuBackGround"/>
+        <attr format="color" name="sMenuTextColor"/>
+        <attr format="color" name="sMenueDividerColor"/>
+        <attr format="dimension" name="sMenueDividerHeight"/>
+        <attr format="dimension" name="sMenueTextSize"/>
+        <attr format="enum" name="sTextGravity">
+            <enum name="gravity_regular" value="0"/>
+            <enum name="gravity_center" value="1"/>
+        </attr>
+        <attr format="enum" name="sArrowDirection">
+            <enum name="arrow_left" value="0"/>
+            <enum name="arrow_right" value="1"/>
+
+        </attr>
+        <attr format="integer" name="sArrowImage"/>
+
+    </declare-styleable>
+</resources>

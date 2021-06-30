@@ -1,0 +1,3 @@
+rootProject.name = "NiceSpinner"
+include ':app'
+include ':nice-spinner'
